@@ -37,7 +37,7 @@ int	main(void)
 
 	act.sa_flags = SA_SIGINFO;
 	act.sa_sigaction = yazdirma;
-	ft_putstr_fd("Uyguld(), 1);ama PID: ", 1);
+	ft_putstr_fd("Uygulama PID: ", 1);
 	ft_putnbr_fd(getpi(), 1);
 	ft_putstr_fd("\n", 1);
 	sigaction(SIGUSR1, &act, NULL);
